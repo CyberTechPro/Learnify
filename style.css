@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    background:  url(Learnify-images/background-learner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+
+.navbar {
+    background-color: #ffe7d1 !important;
+}
+
+.btn-primary {
+    background-color: #e19249;
+}
+.btn-primary:hover {
+    background-color: #fcb26e;
+}
+
+.navbar-brand img {
+    width: 10vw;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    margin: 0 0.4rem;
+    font-size: 1.1rem;
+}
+
+nav form i {
+    cursor: pointer;
+}
+
+.section-head p {
+    color: #e19249;
+}
+
+.feature-icon img {
+    width: 7vw;
+}
+
+.feature {
+    padding: 0 2rem;
+}
+
+#numbers {
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)) , url(Learnify-images/cool-background1.png);
+    background-size: cover;
+    background-position: center;
+    padding: 5rem 0;
+}
+
+.numbers-container {
+    margin-top: 5rem;
+}
+
+.number-categ {
+    position: relative;
+}
+
+.number-categ h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+#myCarousel {
+    height: 40vh;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-item {
+    background-color: #e19249;
+    height: 100%;
+}
+
+.testimonial-head {
+    background-color: #e19249;
+}
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+}
+
+#contact div.row {
+    width: 100%;
+    padding: 0 2rem;
+}
+
+#contact div.row h1 {
+    line-height: 1.2 !important;
+}
+
+html {
+    overflow: hidden;
+}
+
+@media screen and (max-width:992px) {
+    .feature-icon img {
+        width: 13vw;
+    }
+
+    #teachings .container {
+        text-align: center;
+    }
+
+    #teachings .container .row {
+        justify-content: center;
+    }
+
+    .change-button {
+        justify-content: center !important;
+        margin: 1.5rem 0;
+    }
+
+    #footer .container {
+        max-width: initial;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:769px) {
+    .navbar-brand img {
+        width: 15vw;
+    }
+
+    #footer .container {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    footer .row {
+        justify-content: space-between;
+    }
+
+    .offset-1 {
+        margin-left: 1.3333%;
+    }
+
+    .numbers-container {
+        display: grid !important;
+        row-gap: 20px;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 3rem;
+    }
+
+    .carousel-caption p {
+        width: 100% !important;
+        font-size: 0.9rem;
+    }
+
+    #myCarousel {
+        height: 50vh;
+    }
+
+    #contact div.row {
+        margin-left: 0px;
+        padding: 0 0.7rem;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .navbar-brand img {
+        width: 25vw;
+    }
+
+    footer .row {
+        flex-direction: column;
+        padding: 0 10px;
+    }
+
+    footer .row div {
+        width: 100%;
+        margin: 2rem auto;
+    }
+
+    .feature-icon img {
+        width: 20vw;
+    }
+}
+
+@media screen and (max-width:410px) {
+    p.lead {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    #myCarousel {
+        height: 60vh;
+    }
+
+    .carousel-caption p {
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width:378px) {
+    .numbers-container {
+        grid-template-columns: 1fr;
+    }
+
+    #numbers h1 {
+        padding: 0 10px;
+    }
+}

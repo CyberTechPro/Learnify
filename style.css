@@ -124,6 +124,10 @@ footer h5:not(.email):before {
     height: 4px;
 }
 
+footer .nav-link:hover {
+    color: #e19249 !important;
+}
+
 html {
     overflow: hidden;
 }

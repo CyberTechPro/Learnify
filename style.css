@@ -108,6 +108,24 @@ nav form i {
     line-height: 1.2 !important;
 }
 
+footer h5 {
+    position: relative;
+    width: fit-content;
+    margin-bottom: 15px;
+}
+
+footer h5:not(.email):before {
+    content: "";
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+    background-color: #e19249;
+    width: 80%;
+    height: 4px;
+}
+
+
+
 html {
     overflow: hidden;
 }
